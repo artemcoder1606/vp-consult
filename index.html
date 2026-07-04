@@ -1,229 +1,187 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-	<title>HomePage</title>
 	<meta charset="UTF-8">
-	<meta name="format-detection" content="telephone=no">
-	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20260704233614">
-	<link rel="shortcut icon" href="favicon.ico">
-	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Верстка «vp-consult»</title>
 </head>
 
 <body>
-	<div class="wrapper">
-		<header class="header">
-			<div class="header__container">
-				<div class="header__name">BAKUMARTEM</div>
-				<div class="header__socials socials">
-					<a target="_blank" href="https://github.com/artemcoder1606/" class="socials__social" aria-label="github">
-						<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M10.4167 0C9.04873 0 7.69419 0.269435 6.43038 0.792922C5.16657 1.31641 4.01825 2.08369 3.05097 3.05097C1.09747 5.00447 0 7.65399 0 10.4167C0 15.0208 2.98958 18.9271 7.125 20.3125C7.64583 20.3958 7.8125 20.0729 7.8125 19.7917V18.0312C4.92708 18.6562 4.3125 16.6354 4.3125 16.6354C3.83333 15.4271 3.15625 15.1042 3.15625 15.1042C2.20833 14.4583 3.22917 14.4792 3.22917 14.4792C4.27083 14.5521 4.82292 15.5521 4.82292 15.5521C5.72917 17.1354 7.26042 16.6667 7.85417 16.4167C7.94792 15.7396 8.21875 15.2812 8.51042 15.0208C6.19792 14.7604 3.77083 13.8646 3.77083 9.89583C3.77083 8.73958 4.16667 7.8125 4.84375 7.07292C4.73958 6.8125 4.375 5.72917 4.94792 4.32292C4.94792 4.32292 5.82292 4.04167 7.8125 5.38542C8.63542 5.15625 9.53125 5.04167 10.4167 5.04167C11.3021 5.04167 12.1979 5.15625 13.0208 5.38542C15.0104 4.04167 15.8854 4.32292 15.8854 4.32292C16.4583 5.72917 16.0938 6.8125 15.9896 7.07292C16.6667 7.8125 17.0625 8.73958 17.0625 9.89583C17.0625 13.875 14.625 14.75 12.3021 15.0104C12.6771 15.3333 13.0208 15.9688 13.0208 16.9375V19.7917C13.0208 20.0729 13.1875 20.4062 13.7188 20.3125C17.8542 18.9167 20.8333 15.0208 20.8333 10.4167C20.8333 9.04873 20.5639 7.69419 20.0404 6.43038C19.5169 5.16657 18.7496 4.01825 17.7824 3.05097C16.8151 2.08369 15.6668 1.31641 14.403 0.792922C13.1391 0.269435 11.7846 0 10.4167 0Z" fill="black" />
-						</svg>
-					</a>
-					<a target="_blank" href="https://api.whatsapp.com/send/?phone=79496305622" class="socials__social" aria-label="whatsapp">
-						<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M12.501 1C18.2542 1 22.9177 5.66354 22.9177 11.4167C22.9177 17.1698 18.2542 21.8333 12.501 21.8333C10.6602 21.8365 8.85164 21.3493 7.26145 20.4219L2.08853 21.8333L3.49687 16.6583C2.5687 15.0676 2.08114 13.2584 2.08437 11.4167C2.08437 5.66354 6.74791 1 12.501 1ZM8.95103 6.52083L8.7427 6.52917C8.608 6.53845 8.47639 6.57383 8.3552 6.63333C8.24226 6.69741 8.13912 6.77739 8.04895 6.87083C7.92395 6.98854 7.85312 7.09062 7.77707 7.18958C7.39178 7.69052 7.18434 8.30553 7.18749 8.9375C7.18957 9.44792 7.32291 9.94479 7.53124 10.4094C7.95728 11.349 8.65832 12.3437 9.58332 13.2656C9.80624 13.4875 10.025 13.7104 10.2604 13.9177C11.4098 14.9296 12.7795 15.6593 14.2604 16.049L14.8521 16.1396C15.0448 16.15 15.2375 16.1354 15.4312 16.126C15.7346 16.11 16.0307 16.0279 16.299 15.8854C16.4352 15.8149 16.5684 15.7385 16.6979 15.6562C16.6979 15.6562 16.742 15.6264 16.8281 15.5625C16.9687 15.4583 17.0552 15.3844 17.1719 15.2625C17.2594 15.1722 17.3323 15.0674 17.3906 14.9479C17.4719 14.7781 17.5531 14.4542 17.5864 14.1844C17.6114 13.9781 17.6042 13.8656 17.601 13.7958C17.5969 13.6844 17.5042 13.5687 17.4031 13.5198L16.7969 13.2479C16.7969 13.2479 15.8906 12.8531 15.3364 12.601C15.2784 12.5758 15.2163 12.5613 15.1531 12.5583C15.0818 12.5509 15.0098 12.5588 14.9419 12.5817C14.8739 12.6045 14.8117 12.6416 14.7594 12.6906C14.7542 12.6885 14.6844 12.7479 13.9312 13.6604C13.888 13.7185 13.8285 13.7624 13.7602 13.7865C13.6919 13.8106 13.618 13.8139 13.5479 13.7958C13.48 13.7777 13.4135 13.7548 13.3489 13.7271C13.2198 13.6729 13.175 13.6521 13.0864 13.6146C12.4884 13.3541 11.9348 13.0015 11.4458 12.5698C11.3146 12.4552 11.1927 12.3302 11.0677 12.2094C10.6579 11.8169 10.3008 11.3729 10.0052 10.8885L9.94374 10.7896C9.90026 10.7227 9.86462 10.6511 9.83749 10.576C9.79791 10.4229 9.90103 10.3 9.90103 10.3C9.90103 10.3 10.1542 10.0229 10.2719 9.87292C10.3864 9.72708 10.4833 9.58542 10.5458 9.48438C10.6687 9.28646 10.7073 9.08333 10.6427 8.92604C10.351 8.21354 10.0496 7.50486 9.73853 6.8C9.67707 6.66042 9.49478 6.56042 9.32916 6.54062C9.27291 6.53368 9.21666 6.52812 9.16041 6.52396C9.02054 6.51594 8.8803 6.51733 8.74062 6.52812L8.95103 6.52083Z" fill="black" />
-						</svg>
-					</a>
-					<a target="_blank" href="https://t.me/Artem19811606" class="socials__social" aria-label="telegram">
-						<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path fill-rule="evenodd" clip-rule="evenodd" d="M6.02921 14.6042C6.07426 14.618 6.1202 14.6288 6.16671 14.6365C6.46142 15.3309 6.75448 16.026 7.04588 16.7219C7.56983 17.974 8.09796 19.2635 8.21358 19.6344C8.35838 20.0906 8.51046 20.401 8.67713 20.6135C8.76358 20.7219 8.86254 20.8177 8.97921 20.8906C9.04047 20.9278 9.10539 20.9585 9.17296 20.9823C9.50629 21.1073 9.81046 21.0552 10.0011 20.9917C10.113 20.9536 10.2195 20.9011 10.3178 20.8354L10.323 20.8333L13.2667 18.9979L16.6678 21.6042C16.7178 21.6424 16.7719 21.6747 16.8303 21.701C17.2386 21.8781 17.6344 21.9406 18.0073 21.8906C18.3782 21.8385 18.673 21.6833 18.8927 21.5073C19.1449 21.3037 19.3461 21.044 19.4803 20.749L19.4896 20.726L19.4928 20.7177L19.4948 20.7135V20.7115L19.4959 20.7104C19.513 20.6653 19.5269 20.619 19.5375 20.5719L22.6417 4.92083C22.6503 4.87056 22.6552 4.81973 22.6563 4.76875C22.6563 4.31042 22.4834 3.87396 22.0782 3.61042C21.7302 3.38437 21.3438 3.37396 21.099 3.39271C20.8365 3.41354 20.5928 3.47812 20.4292 3.53021C20.3378 3.55972 20.2475 3.59237 20.1584 3.62812L20.1469 3.63333L2.7365 10.4625L2.73442 10.4635C2.67538 10.4849 2.61733 10.5089 2.56046 10.5354C2.42235 10.5974 2.2899 10.6713 2.16463 10.7563C1.92817 10.9177 1.38338 11.3615 1.47608 12.0948C1.549 12.6781 1.949 13.0375 2.19379 13.2104C2.32713 13.3052 2.45421 13.3729 2.54796 13.4177C2.58963 13.4385 2.67921 13.474 2.71775 13.4906L2.72817 13.4938L6.02921 14.6042ZM20.7563 5.07083H20.7542L20.7271 5.08229L3.29588 11.9208L3.26879 11.9313L3.25838 11.9344C3.22646 11.9467 3.19517 11.9606 3.16463 11.976C3.19375 11.9924 3.22365 12.0073 3.25421 12.0208L6.52713 13.1229C6.58491 13.1443 6.64069 13.1708 6.69379 13.2021L17.5032 6.87396L17.5136 6.86875C17.5558 6.84362 17.5989 6.82 17.6428 6.79792C17.7178 6.75937 17.8375 6.70312 17.973 6.66146C18.0667 6.63229 18.3448 6.55 18.6448 6.64687C18.8042 6.69659 18.9463 6.79036 19.0546 6.91735C19.163 7.04434 19.2333 7.19938 19.2573 7.36458C19.2961 7.50912 19.2972 7.66118 19.2605 7.80625C19.1875 8.09271 18.9875 8.31563 18.8053 8.48646C18.649 8.63229 16.6219 10.5865 14.623 12.5156L11.9011 15.1406L11.4167 15.6094L17.5334 20.299C17.616 20.3335 17.7056 20.3477 17.7948 20.3406C17.8398 20.3345 17.882 20.3157 17.9167 20.2865C17.9589 20.2507 17.9951 20.2086 18.024 20.1615L18.0261 20.1604L21.0365 4.98021C20.9418 5.00352 20.8489 5.03346 20.7584 5.06979L20.7563 5.07083ZM11.9428 17.9812L10.7219 17.0458L10.4261 18.926L11.9428 17.9812ZM9.60213 15.1896L10.8157 14.0177L13.5375 11.3906L14.5511 10.4135L7.75942 14.3896L7.79588 14.475C8.22422 15.4869 8.64783 16.5008 9.06671 17.5167L9.3615 15.6417C9.38841 15.4678 9.4732 15.3092 9.60213 15.1896Z" fill="black" />
-						</svg>
-					</a>
-				</div>
-			</div>
-		</header>
-		<main class="page">
-			<section class="page__hero hero">
-				<div class="hero__container">
-					<div class="hero__img" data-watch>
-						<picture><source srcset="img/avatar.webp" type="image/webp"><img src="img/avatar.jpg" alt="My photo"></picture>
-					</div>
-					<h1 class="hero__title title" data-watch>
-						Bakum Artem
-					</h1>
-					<div class="hero__subtitle" data-watch>Frontend Developer <br>
-						HTML5 • CSS3 • JavaScript • OctoberCMS • Git
-					</div>
-					<div class="hero__text" data-watch>
-						<p>Frontend developer with <span data-start="2019"></span>+ years of commercial experience creating responsive websites and modern
-							web interfaces. I build clean, maintainable code with a strong focus on performance, accessibility
-							and pixel-perfect implementation.
-						</p>
-					</div>
-					<div class="hero__buttons">
-						<a href="#portfolio" class="hero__button">Portfolio</a>
-						<a href="#contact" class="hero__button hero__button_contact">Contact me</a>
-					</div>
+	<div class="rootpage">
+		<h1>Верстка «vp-consult»</h1>
+		<div class="rootpage__info">
+			Описание проекта
+		</div>
+		<h2>Готовые страницы:</h2>
+		<ol class="rootpage__list">
+			<li><a target="_blank" href="home.html">Главная</a></li>
+			<li><a target="_blank" href="forex.html">Форекс</a></li>
+			<li><a target="_blank" href="site-access.html">Получить доступ к сайту</a></li>
+			<li><a target="_blank" href="directories.html">Справочник</a></li>
+			<li><a target="_blank" href="directory.html">Директория</a></li>
+			<li><a target="_blank" href="section.html">Секция</a></li>
+			<li><a target="_blank" href="profile.html">Профиль компании</a></li>
+			<li><a target="_blank" href="blog.html">Блог</a></li>
+			<li><a target="_blank" href="blog-category.html">Категория блога</a></li>
+			<li><a target="_blank" href="blog-post.html">Пост блога</a></li>
+			<li><a target="_blank" href="news.html">Новости</a></li>
+			<li><a target="_blank" href="news-category.html">Категория новости</a></li>
+			<li><a target="_blank" href="news-post.html">Пост новости</a></li>
+		</ol>
 
-				</div>
-			</section>
-			<section class="page__portfolio portfolio" id="portfolio">
-				<div class="portfolio__container">
-					<h2 class="portfolio__title title">
-						Portfolio
-					</h2>
-					<div class="portfolio__subtitle">
-						Creating modern web interfaces with HTML, CSS & JavaScript.
-					</div>
-					<ul class="portfolio__items">
-						<li class="portfolio__item portfolio__item_1" data-watch>
-							<a target="_blank" href="https://artemcoder1606.github.io/tokar-mebel/" class="tokar-mebel">
-								<picture><source srcset="img/02.webp" type="image/webp"><img src="img/02.jpg" alt="Tokar mebel"></picture>
-							</a>
-							<h3 class="portfolio__title-small title title_small">
-								<a target="_blank" href="https://artemcoder1606.github.io/tokar-mebel/">Wooden Houses Website</a>
-							</h3>
-							<div class="portfolio__text">
-								<p>Responsive corporate website with clean code and modern UI.</p>
-							</div>
-						</li>
-						<li class="portfolio__item portfolio__item_2" data-watch>
-							<a target="_blank" href="https://artemcoder1606.github.io/nesterov-houses/" class="nesterov-houses">
-								<picture><source srcset="img/01.webp" type="image/webp"><img src="img/01.jpg" alt="Nesterov houses"></picture>
-							</a>
-							<h3 class="portfolio__title-small title title_small">
-								<a target="_blank" href="https://artemcoder1606.github.io/nesterov-houses/">Real Estate website</a>
-							</h3>
-							<div class="portfolio__text">
-								<p>Multi-page real estate website with responsive layout and intuitive navigation.</p>
-							</div>
-						</li>
-						<li class="portfolio__item portfolio__item_3" data-watch>
-							<a target="_blank" href="https://artemcoder1606.github.io/vp-consult/" class="vp-consult">
-								<picture><source srcset="img/04.webp" type="image/webp"><img src="img/04.jpg" alt="Vsya pravda"></picture>
-							</a>
-							<h3 class="portfolio__title-small title title_small">
-								<a target="_blank" href="https://artemcoder1606.github.io/vp-consult/">Consulting Company Website
-								</a>
-							</h3>
-							<div class="portfolio__text">
-								<p>Responsive corporate website with smooth animations and cross-browser compatibility.</p>
-							</div>
-						</li>
-						<li class="portfolio__item portfolio__item_4" data-watch>
-							<a target="_blank" href="https://artemcoder1606.github.io/alco-shop/" class="alco-shop">
-								<picture><source srcset="img/03.webp" type="image/webp"><img src="img/03.jpg" alt="Alco store"></picture>
-							</a>
-							<h3 class="portfolio__title-small title title_small">
-								<a target="_blank" href="https://artemcoder1606.github.io/alco-shop/">Alcohol Store Website </a>
-							</h3>
-							<div class="portfolio__text">
-								<p>E-commerce website with responsive design, reusable UI components and optimized performance.</p>
-							</div>
-						</li>
-						<li class="portfolio__item portfolio__item_5" data-watch>
-							<a target="_blank" href="https://artemcoder1606.github.io/tourist-club/" class="tourist-club">
-								<picture><source srcset="img/06.webp" type="image/webp"><img src="img/06.jpg" alt="Tourist club"></picture>
-							</a>
-							<h3 class="portfolio__title-small title title_small">
-								<a target="_blank" href="https://artemcoder1606.github.io/tourist-club/">Travel Agency Website</a>
-							</h3>
-							<div class="portfolio__text">
-								<p>Multi-page travel website with responsive layout and user-friendly interface.</p>
-							</div>
-						</li>
-						<li class="portfolio__item portfolio__item_6" data-watch>
-							<a target="_blank" href="https://bakum1981.github.io/agro-world/" class="agro-world">
-								<picture><source srcset="img/05.webp" type="image/webp"><img src="img/05.jpg" alt="Agro world"></picture>
-							</a>
-							<h3 class="portfolio__title-small title title_small">
-								<a target="_blank" href="https://bakum1981.github.io/agro-world/">Agricultural Company Landing</a>
-							</h3>
-							<div class="portfolio__text">
-								<p>Single-page responsive website with engaging animations and modern user experience.</p>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section class="page__experience experience">
-				<div class="experience__container">
-					<div class="experience__items">
-						<div class="experience__item experience__item_1" data-watch>
-							<h3 class="experience__title">
-								HTML
-							</h3>
-							<div class="experience__text">
-								<p><span data-start="2019"></span> Years Experience</p>
-							</div>
-						</div>
-						<div class="experience__item experience__item_2" data-watch>
-							<h3 class="experience__title">
-								CSS
-							</h3>
-							<div class="experience__text">
-								<p><span data-start="2019"></span> Years Experience</p>
-							</div>
-						</div>
-						<div class="experience__item experience__item_3" data-watch>
-							<h3 class="experience__title">
-								JavaScript
-							</h3>
-							<div class="experience__text">
-								<p><span data-start="2019"></span> Years Experience</p>
-							</div>
-						</div>
-						<div class="experience__item experience__item_4" data-watch>
-							<h3 class="experience__title">
-								OctoberCMS
-							</h3>
-							<div class="experience__text">
-								<p><span data-start="2021"></span> Years Experience</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="page__contact contact" id="contact">
-				<div class="contact__container">
-					<div class="contact__content">
-						<h2 class="contact__title title title_white">Contact</h2>
-						<a target="_blank" href="tel:+79496305622" class="contact__item contact__item_phone">
-							<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M3.77083 8.11458C5.27083 11.0625 7.6875 13.4687 10.6354 14.9792L12.9271 12.6875C13.2083 12.4062 13.625 12.3125 13.9896 12.4375C15.1562 12.8229 16.4167 13.0312 17.7083 13.0312C18.2812 13.0312 18.75 13.5 18.75 14.0729V17.7083C18.75 18.2812 18.2812 18.75 17.7083 18.75C7.92708 18.75 0 10.8229 0 1.04167C0 0.46875 0.46875 0 1.04167 0H4.6875C5.26042 0 5.72917 0.46875 5.72917 1.04167C5.72917 2.34375 5.9375 3.59375 6.32292 4.76042C6.4375 5.125 6.35417 5.53125 6.0625 5.82292L3.77083 8.11458Z" fill="white" />
-							</svg>
-							+7(949) 630-56-22
-						</a>
-						<a target="_blank" href="mailto:bakum.artem@mail.ru" class="contact__item">
-							<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M20.8333 4.16675H4.16667C3.02084 4.16675 2.09375 5.10425 2.09375 6.25008L2.08334 18.7501C2.08334 19.8959 3.02084 20.8334 4.16667 20.8334H20.8333C21.9792 20.8334 22.9167 19.8959 22.9167 18.7501V6.25008C22.9167 5.10425 21.9792 4.16675 20.8333 4.16675ZM20.8333 8.33341L12.5 13.5417L4.16667 8.33341V6.25008L12.5 11.4584L20.8333 6.25008V8.33341Z" fill="white" />
-							</svg>
-							bakum.artem@mail.ru
-						</a>
-					</div>
-					<div class="contact__socials socials">
-						<a target="_blank" href="https://github.com/artemcoder1606/" class="socials__social" aria-label="github">
-							<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M10.4167 0C9.04873 0 7.69419 0.269435 6.43038 0.792922C5.16657 1.31641 4.01825 2.08369 3.05097 3.05097C1.09747 5.00447 0 7.65399 0 10.4167C0 15.0208 2.98958 18.9271 7.125 20.3125C7.64583 20.3958 7.8125 20.0729 7.8125 19.7917V18.0312C4.92708 18.6562 4.3125 16.6354 4.3125 16.6354C3.83333 15.4271 3.15625 15.1042 3.15625 15.1042C2.20833 14.4583 3.22917 14.4792 3.22917 14.4792C4.27083 14.5521 4.82292 15.5521 4.82292 15.5521C5.72917 17.1354 7.26042 16.6667 7.85417 16.4167C7.94792 15.7396 8.21875 15.2812 8.51042 15.0208C6.19792 14.7604 3.77083 13.8646 3.77083 9.89583C3.77083 8.73958 4.16667 7.8125 4.84375 7.07292C4.73958 6.8125 4.375 5.72917 4.94792 4.32292C4.94792 4.32292 5.82292 4.04167 7.8125 5.38542C8.63542 5.15625 9.53125 5.04167 10.4167 5.04167C11.3021 5.04167 12.1979 5.15625 13.0208 5.38542C15.0104 4.04167 15.8854 4.32292 15.8854 4.32292C16.4583 5.72917 16.0938 6.8125 15.9896 7.07292C16.6667 7.8125 17.0625 8.73958 17.0625 9.89583C17.0625 13.875 14.625 14.75 12.3021 15.0104C12.6771 15.3333 13.0208 15.9688 13.0208 16.9375V19.7917C13.0208 20.0729 13.1875 20.4062 13.7188 20.3125C17.8542 18.9167 20.8333 15.0208 20.8333 10.4167C20.8333 9.04873 20.5639 7.69419 20.0404 6.43038C19.5169 5.16657 18.7496 4.01825 17.7824 3.05097C16.8151 2.08369 15.6668 1.31641 14.403 0.792922C13.1391 0.269435 11.7846 0 10.4167 0Z" fill="white" />
-							</svg>
-						</a>
-						<a target="_blank" href="https://api.whatsapp.com/send/?phone=79496305622" class="socials__social" aria-label="whatsapp">
-							<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M10.4167 0C16.1698 0 20.8333 4.66354 20.8333 10.4167C20.8333 16.1698 16.1698 20.8333 10.4167 20.8333C8.5758 20.8365 6.76729 20.3493 5.1771 19.4219L0.00418277 20.8333L1.41252 15.6583C0.484348 14.0676 -0.00321003 12.2584 1.59049e-05 10.4167C1.59049e-05 4.66354 4.66356 0 10.4167 0ZM6.86668 5.52083L6.65835 5.52917C6.52365 5.53845 6.39204 5.57383 6.27085 5.63333C6.15791 5.69741 6.05477 5.77739 5.9646 5.87083C5.8396 5.98854 5.76877 6.09062 5.69272 6.18958C5.30743 6.69052 5.09999 7.30553 5.10314 7.9375C5.10522 8.44792 5.23856 8.94479 5.44689 9.40937C5.87293 10.349 6.57397 11.3437 7.49897 12.2656C7.72189 12.4875 7.94064 12.7104 8.17606 12.9177C9.32547 13.9296 10.6951 14.6593 12.1761 15.049L12.7677 15.1396C12.9604 15.15 13.1531 15.1354 13.3469 15.126C13.6502 15.11 13.9464 15.0279 14.2146 14.8854C14.3509 14.8149 14.484 14.7385 14.6136 14.6562C14.6136 14.6562 14.6577 14.6264 14.7438 14.5625C14.8844 14.4583 14.9708 14.3844 15.0875 14.2625C15.175 14.1722 15.2479 14.0674 15.3063 13.9479C15.3875 13.7781 15.4688 13.4542 15.5021 13.1844C15.5271 12.9781 15.5198 12.8656 15.5167 12.7958C15.5125 12.6844 15.4198 12.5687 15.3188 12.5198L14.7125 12.2479C14.7125 12.2479 13.8063 11.8531 13.2521 11.601C13.1941 11.5758 13.132 11.5613 13.0688 11.5583C12.9975 11.5509 12.9254 11.5588 12.8575 11.5817C12.7896 11.6045 12.7273 11.6416 12.675 11.6906C12.6698 11.6885 12.6 11.7479 11.8469 12.6604C11.8037 12.7185 11.7441 12.7624 11.6759 12.7865C11.6076 12.8106 11.5337 12.8139 11.4636 12.7958C11.3957 12.7777 11.3292 12.7548 11.2646 12.7271C11.1354 12.6729 11.0906 12.6521 11.0021 12.6146C10.4041 12.3541 9.85048 12.0015 9.36147 11.5698C9.23022 11.4552 9.10835 11.3302 8.98335 11.2094C8.57357 10.8169 8.21642 10.3729 7.92085 9.88854L7.85939 9.78958C7.81591 9.7227 7.78026 9.65106 7.75314 9.57604C7.71356 9.42292 7.81668 9.3 7.81668 9.3C7.81668 9.3 8.06981 9.02292 8.18752 8.87292C8.3021 8.72708 8.39897 8.58542 8.46147 8.48438C8.58439 8.28646 8.62293 8.08333 8.55835 7.92604C8.26668 7.21354 7.96529 6.50486 7.65418 5.8C7.59272 5.66042 7.41043 5.56042 7.24481 5.54062C7.18856 5.53368 7.13231 5.52812 7.07606 5.52396C6.93619 5.51594 6.79594 5.51733 6.65627 5.52812L6.86668 5.52083Z" fill="white" />
-							</svg>
-						</a>
-						<a target="_blank" href="https://t.me/Artem19811606" class="socials__social" aria-label="telegram">
-							<svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path fill-rule="evenodd" clip-rule="evenodd" d="M4.56363 11.2177C4.60868 11.2316 4.65462 11.2424 4.70113 11.25C4.99584 11.9444 5.2889 12.6396 5.5803 13.3354C6.10426 14.5875 6.63238 15.8771 6.74801 16.2479C6.8928 16.7042 7.04488 17.0146 7.21155 17.2271C7.29801 17.3354 7.39697 17.4313 7.51363 17.5042C7.57489 17.5413 7.63982 17.572 7.70738 17.5958C8.04072 17.7208 8.34488 17.6688 8.53551 17.6052C8.64743 17.5672 8.75389 17.5147 8.85217 17.449L8.85738 17.4469L11.8011 15.6115L15.2022 18.2177C15.2522 18.2559 15.3063 18.2882 15.3647 18.3146C15.773 18.4917 16.1688 18.5542 16.5418 18.5042C16.9126 18.4521 17.2074 18.2969 17.4272 18.1208C17.6793 17.9172 17.8805 17.6575 18.0147 17.3625L18.024 17.3396L18.0272 17.3313L18.0293 17.3271V17.325L18.0303 17.324C18.0474 17.2788 18.0613 17.2325 18.072 17.1854L21.1761 1.53438C21.1847 1.48412 21.1896 1.43328 21.1907 1.3823C21.1907 0.923968 21.0178 0.48751 20.6126 0.223968C20.2647 -0.00207329 19.8782 -0.0124901 19.6334 0.00625991C19.3709 0.0270932 19.1272 0.0916766 18.9636 0.14376C18.8723 0.173268 18.7819 0.205927 18.6928 0.241677L18.6813 0.246885L1.27092 7.07605L1.26884 7.07709C1.2098 7.09842 1.15176 7.1224 1.09488 7.14897C0.956771 7.21094 0.824325 7.28483 0.69905 7.3698C0.462592 7.53126 -0.0822001 7.97501 0.0105082 8.70834C0.0834249 9.29168 0.483425 9.65105 0.728216 9.82397C0.86155 9.91876 0.988633 9.98647 1.08238 10.0313C1.12405 10.0521 1.21363 10.0875 1.25217 10.1042L1.26259 10.1073L4.56363 11.2177ZM19.2907 1.68439H19.2886L19.2616 1.69584L1.8303 8.53439L1.80322 8.5448L1.7928 8.54793C1.76088 8.56027 1.7296 8.57417 1.69905 8.58959C1.72818 8.60595 1.75807 8.6209 1.78863 8.63439L5.06155 9.73647C5.11934 9.75788 5.17511 9.78437 5.22822 9.81563L16.0376 3.48751L16.048 3.4823C16.0902 3.45718 16.1333 3.43355 16.1772 3.41147C16.2522 3.37293 16.372 3.31668 16.5074 3.27501C16.6011 3.24584 16.8793 3.16355 17.1793 3.26043C17.3386 3.31015 17.4807 3.40391 17.5891 3.5309C17.6974 3.65789 17.7677 3.81293 17.7918 3.97814C17.8306 4.12267 17.8316 4.27473 17.7949 4.4198C17.722 4.70626 17.522 4.92918 17.3397 5.10001C17.1834 5.24584 15.1563 7.20001 13.1574 9.12918L10.4355 11.7542L9.95113 12.2229L16.0678 16.9125C16.1504 16.947 16.24 16.9613 16.3293 16.9542C16.3742 16.948 16.4165 16.9292 16.4511 16.9C16.4933 16.8643 16.5295 16.8221 16.5584 16.775L16.5605 16.774L19.5709 1.59376C19.4762 1.61708 19.3833 1.64701 19.2928 1.68334L19.2907 1.68439ZM10.4772 14.5948L9.25634 13.6594L8.96051 15.5396L10.4772 14.5948ZM8.13655 11.8031L9.35009 10.6313L12.072 8.00418L13.0855 7.02709L6.29384 11.0031L6.3303 11.0886C6.75864 12.1005 7.18226 13.1144 7.60113 14.1302L7.89593 12.2552C7.92284 12.0814 8.00762 11.9228 8.13655 11.8031Z" fill="white" />
-							</svg>
-						</a>
-					</div>
-				</div>
-			</section>
-		</main>
-		<footer class="footer">
-			<div class="footer__container">
-				<div class="footer__text">
-					Copyright <span class="footer__date" id="current-year"></span> by Bakum Artem
-				</div>
-			</div>
-		</footer>
+		<div class="rootpage__tnx">
+			<h2>Спасибо за заказ!</h2>
+			<p>Буду рад хорошему отзыву.</p>
+			<p>Обращайтесь еще</p>
+		</div>
+		<div class="rootpage__contacts">
+			<h2>Мои контакты</h2>
+			<p>Почта: <a href="mailto:bakum.artem@mail.ru">mailto:bakum.artem@mail.ru</a></p>
+			<p>Соц. сети: <a href="https://t.me/Artem19811606">Телеграм</a></p>
+		</div>
 	</div>
-	<script src="js/app.min.js?_v=20260704233614"></script>
 </body>
+<style>
+	@charset "UTF-8";
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
+
+	*,
+	*::before,
+	*::after {
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+		box-sizing: border-box;
+	}
+
+	html,
+	body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		min-width: 320px;
+		width: 100%;
+		color: #fff;
+		background-color: #5e5373;
+	}
+
+	body {
+		font-family: Montserrat;
+		font-size: 100%;
+		line-height: 1;
+		font-size: 1rem;
+	}
+
+	a {
+		text-decoration: underline;
+		color: #ebe691
+	}
+
+	a:visited {
+		text-decoration: underline;
+		color: #aaa768;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+	ul li {
+		list-style: none;
+	}
+
+	img {
+		vertical-align: top;
+	}
+
+	.wrapper {
+		width: 100%;
+		min-height: 100%;
+		overflow: hidden;
+	}
+
+	.rootpage {
+		padding: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	@media (max-width: 767px) {
+		.rootpage {
+			padding: 30px 15px;
+		}
+	}
+
+	h1 {
+		color: #ebe691;
+		font-size: 2.5rem;
+		margin: 0px 0px 1.25rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		h1 {
+			font-size: 1.85rem;
+			margin: 0px 0px 1.25rem 0px;
+		}
+	}
+
+	h2 {
+		color: #ebe691;
+		font-size: 1.25rem;
+		margin: 0px 0px 1rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		h2 {
+			font-size: 1.125rem;
+			margin: 0px 0px 1rem 0px;
+		}
+	}
+
+	.rootpage__info {
+		line-height: 140%;
+		margin: 0px 0px 1.5rem 0px;
+	}
+
+	.rootpage__list {
+		margin: 0px 0px 2.25rem 1.25rem;
+	}
+
+	.rootpage__list li:not(:last-child) {
+		margin: 0px 0px 15px 0px;
+	}
+
+	.rootpage__contacts,
+	.rootpage__tnx {
+		border-radius: 200px;
+		padding: 20px 65px;
+		line-height: 140%;
+	}
+
+	@media (max-width: 767px) {
+
+		.rootpage__contacts,
+		.rootpage__tnx {
+			border-radius: 40px;
+			padding: 20px;
+		}
+	}
+
+	.rootpage__contacts {
+		background: #32b5a4;
+
+	}
+
+	.rootpage__contacts a {
+		color: #ebe691;
+	}
+
+	.rootpage__tnx {
+		background: #c22d63;
+		margin: 0px 0px 1rem 0px;
+	}
+</style>
 
 </html>
